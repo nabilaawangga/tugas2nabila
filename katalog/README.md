@@ -6,6 +6,8 @@ link aplikasi heroku: https://katalognabila.herokuapp.com/katalog/
 
 ## Bagan
 
+![Bagan](https://user-images.githubusercontent.com/112460228/189625491-1a78c0dd-756d-4476-80d8-6a720e764202.png)
+
 1. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html
 
 Client memberikan request berupa link url di browser dengan mengakses Internet yang mana browser ini akan menyampaikan request client kepada web server. Jika menggunakan django, maka browser akan mengirim request client tersebut ke server django. Manage.py yang menjalankan server django. Server django akan mengextract argumen dari user lalu urls.py akan melakukan routing sesuai sama request yg dikasi dengan liat host, port, dan path yang ada pada url yg ada di request client. Url routing ini akan mem-forward sesuai request ke code yang sesuai. Routing ini menuju ke views.py yang sesuai. Views.py akan berhubungan dengan models.py untuk meminta/menyimpan data yang direquest oleh client. Namun, models.py tidak langsug menyimpan data. models.py bertugas untuk menangani segala hal tentang data yang data tersebut sebenarnya disimpan dalam sebuah database. Ibaratnya, models.py adalah manager dari data yang disimpan. Ketika data yang diminta oleh views.py telah diberikan oleh models.py, maka views.py memerlukan template yang akan digunakan untuk menaruh data pada template tersebut. Lalu, data yang telah diambl di views.py akan dimasukkan ke template html sehingga nantinya akan di-render menjadi sebuah halaman yang utuh sebagai respon untuk request client.
