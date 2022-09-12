@@ -5,8 +5,7 @@ NPM: 2106703840
 link aplikasi heroku: https://katalognabila.herokuapp.com/katalog/
 
 ## Bagan
-
-![Bagan](https://user-images.githubusercontent.com/112460228/189625491-1a78c0dd-756d-4476-80d8-6a720e764202.png)
+<img width="816" alt="bags" src="https://user-images.githubusercontent.com/112460228/189626605-9fb50929-47b2-4317-81eb-b76967be51df.png">
 
 1. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html
 
