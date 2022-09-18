@@ -1,0 +1,123 @@
+[
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":1,
+        "fields":{
+            "title":"Mencuri Raden Saleh",
+            "release_date":"25/09/2022",
+            "watched": "Yes",
+            "review": "A good film has a good plot and story, the comedy can be obtained and the cinematography is beautiful and the acting of the actors is very good. This film is one of the best films in 2022, the best Indonesian robbery film A good film has a good plot and story, the comedy can be obtained and the cinematography is beautiful and the acting of the actors is very good. This film is one of the best films in 2022, the best In. A good film has a good plot and story, the comedy can be obtained and the cinematography is beautiful and the acting of the actors is very good. This film is one of the best films in 2022, the best Indonesian robbery film.",
+            "rating": "5"
+        }
+},
+{
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":2,
+        "fields":{
+            "title":"Pengabdi Setan 2",
+            "release_date":"04/09/2022",
+            "watched": "Yes",
+            "review": "This is the best horror movies in 2022! The creepy atmospheres is there. Great storyline sequel from previous movie. The acting is great. Jump scare everywhere. Suspense from the start until the end. Even though ending should be more better. Well done.",
+            "rating": "4"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":3,
+        "fields":{
+            "title":"Minions: The Rise of Gru",
+            "release_date":"28/06/2022",
+            "watched": "Yes",
+            "review": "Its a fun movie. Minion scenes are more than Gru and thankfully so. The chemistry between minions characters is epic. Love Kevin, Bob and Stuart. There is no deep meaning or higher message, a simple carefree movie which is supposed to be seen that way.",
+            "rating": "4"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":4,
+        "fields":{
+            "title":"Top Gun: Maverick",
+            "release_date":"27/05/2022",
+            "watched": "Yes",
+            "review": "SUCH A GOOD GREAT EXCELLENT EXTRAORDINARY MOVIE. that's it.",
+            "rating": "5"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":5,
+        "fields":{
+            "title":"Doctor Strange in the Multiverse of Madness",
+            "release_date":"05/05/2022",
+            "watched": "Yes",
+            "review": "Doctor Strange is increasingly estranged, from Wanda whose increasingly deranged, through parallel portals and gaping wide plot falls, many flaws to explore through perpetual change. Just not quite as good as I'd hoped it would be.",
+            "rating": "3"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":5,
+        "fields":{
+            "title":"Spider-Man: No Way Home",
+            "release_date":"15/12/2021",
+            "watched": "Yes",
+            "review": "Spider-Man: No Way Home is a phenomenal conclusion to the trilogy and Holland's best outing as Spidey yet. Starts off fun, safe and familiar and then becomes extremely emotional, satisfying and full of great callbacks. A love letter to all things Spider-Man.",
+            "rating": "4"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":6,
+        "fields":{
+            "title":"Ngeri-Ngeri Sedap",
+            "release_date":"02/06/2022",
+            "watched": "Yes",
+            "review": "Great family film, so heartwarming",
+            "rating": "5"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":7,
+        "fields":{
+            "title":"KKN di Desa Penari",
+            "release_date":"30/04/2022",
+            "watched": "Yes",
+            "review": "FINALLY after 189829 years of waiting we can watch this movie. Not beyond of my expectations but still a good movie.",
+            "rating": "3"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":8,
+        "fields":{
+            "title":"Purple Hearts",
+            "release_date":"29/07/2022",
+            "watched": "Yes",
+            "review": "I enjoyed this movie even tho it was a bit predictable. Very good story, the music was great BUT her singing was annoying! I could only understand 1/2 the words. Stop trying to be so breathy. Just sing.",
+            "rating": "3"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":9,
+        "fields":{
+            "title":"Thor: Love and Thunder",
+            "release_date":"06/07/2022",
+            "watched": "Yes",
+            "review": "Ok movie.",
+            "rating": "4"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlistitem",
+        "pk":10,
+        "fields":{
+            "title":"Fantastic Beasts: The Secrets of Dumbledore",
+            "release_date":"13/04/2022",
+            "watched": "Yes",
+            "review": "I always love fantastic beasts <3",
+            "rating": "5"
+        }
+    }
+]
