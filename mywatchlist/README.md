@@ -18,7 +18,7 @@ Pada sebuah platform, ada data user yaitu request yang diberikan oleh user dan d
 
 ## 3. Jelaskan bagaimana cara kamu mengimplementasikan poin 1 sampai dengan 3 di atas.
 
-a. Membuat suatu aplikasi baru bernama mywatchlist di proyek Django Tugas 2 pekan lalu
+# a. Membuat suatu aplikasi baru bernama mywatchlist di proyek Django Tugas 2 pekan lalu
 Saya membuat aplikasi baru bernama mywatchlist dengan menjalankan perintah "python manage.py startapp mywatchlist" pada direktori yang sama dengan tugas 1. Lalu menambahkan mywatchlist pada variabel installed app pada file settings.py di folder project_django.
 b. Menambahkan path mywatchlist sehingga pengguna dapat mengakses http://localhost:8000/mywatchlist
 agar dapat mengakses link tersebut, saya menambahkan kode path('mywatchlist/', include('mywatchlist.urls'), pada file urls.py yang ada di dalam folder project_django.
