@@ -41,3 +41,10 @@ Kelas: PBP F
 
 # g. Melakukan deployment ke Heroku terhadap aplikasi yang sudah kamu buat sehingga nantinya dapat diakses oleh teman-temanmu melalui Internet.
     Karena pada tugas sebelumnya, saya telah menghubungkan repositori git ini dengan aplikasi heroku yang telah saya buat, yang saya lakukan pada tugas ini agar linknya dapat diakses oleh teman-teman melalui Internet adalah dengan melakukan, add, commit, serta push perubahan file yang saya lakukan ke repositori tersebut.
+
+## POSTMAN
+# XML
+
+# JSON
+
+# HTML
