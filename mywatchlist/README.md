@@ -46,7 +46,11 @@ Karena pada tugas sebelumnya, saya telah menghubungkan repositori git ini dengan
 
 ## POSTMAN
 # XML
+<img width="1360" alt="Screen Shot 2022-09-21 at 10 15 18" src="https://user-images.githubusercontent.com/112460228/191407405-0bede31d-c79d-43a5-9717-80de0f7a29e4.png">
 
 # JSON
+<img width="1354" alt="Screen Shot 2022-09-21 at 10 15 03" src="https://user-images.githubusercontent.com/112460228/191407365-39673d4a-b2cd-49da-9bfd-ab22a891aebf.png">
 
 # HTML
+<img width="1365" alt="Screen Shot 2022-09-21 at 10 14 30" src="https://user-images.githubusercontent.com/112460228/191407272-e1d1bcd3-8842-48ef-844c-b5917a3b50c5.png">
+<img width="1360" alt="Screen Shot 2022-09-21 at 10 14 44" src="https://user-images.githubusercontent.com/112460228/191407336-a94d161a-1904-4fca-8db8-f84972ba32be.png">
