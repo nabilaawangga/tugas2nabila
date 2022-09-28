@@ -3,6 +3,11 @@ NPM: 2106703840
 Kelas: PBP F
 
 link heroku:
+https://katalognabila.herokuapp.com/todolist/login/?next=/todolist/
+https://katalognabila.herokuapp.com/todolist/login/
+https://katalognabila.herokuapp.com/todolist/register/
+https://katalognabila.herokuapp.com/todolist/create-task/
+https://katalognabila.herokuapp.com/todolist/logout/
 
 ## Apa kegunaan {% csrf_token %} pada elemen <form>? Apa yang terjadi apabila tidak ada potongan kode tersebut pada elemen <form>?
 CSRF adalah serangan yang mengirimkan permintaan palsu kepada suatu web padahal permintaan tersebut tidak dikirim oleh si pengguna. csrf_ token digunakan untuk mencegah penyerangan csrf tersebut dengan melakukan validasi dari token yang dimasukkan pengguna dengan yang di simpan di dalam user session. Form akan menolak permintaan jika token yang dimasukkan tidak valid. Website tetap bisa digunakan dan berjalan dengan baik jika tidak ada csrf_token pada form, tetapi akan ada resiko penyerangan CSRF dengan contoh kasus yaitu orang lain selain pengguna akun tersebut dapat menghapus akun dengan mengakses route link yang sesuai tanpa diketahui oleh si pengguna akun tersebut.
