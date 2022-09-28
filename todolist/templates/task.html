@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block meta %}
+
+<style>
+    title, h1, th, td, table {text-align: center;}
+    table, th, td {
+        border-collapse: collapse;
+        background-color: rgb(251, 221, 238);
+        border-width: 1px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+    * {
+        font-family: 'Arial';
+        text-align: center;
+        vertical-align: middle;
+    }
+    th, td {
+        padding: 10px 14px
+    }
+    table {
+    margin-left: auto;
+    margin-right: auto;
+    }
+  </style>
+
+<title>Add Task</title>
+{% endblock meta %}
+
+{% block content %}
+
+<div class = "create_task">
+
+    <h1>Tambah Task Baru!</h1>
+    <br>
+    <br>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>Todo: </td>
+                <td><input type="text" name="todo" placeholder="Isi Todo" class="form-control"></td>
+            </tr>
+                    
+            <tr>
+                <td>Description: </td>
+                <td><input type="text" name="description" placeholder="Deskripsi Todo" class="form-control"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="submit" value="Tambah Task"/>
+    </form>
+
+</div>
+
+{% endblock content %}
