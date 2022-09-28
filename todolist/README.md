@@ -35,12 +35,7 @@ Pertama-tama, saya membuat fungsi login, register, logout pada views.py. Lalu sa
 
 5.  Membuat halaman utama todolist yang memuat username pengguna, tombol Tambah Task Baru, tombol logout, serta tabel berisi tanggal pembuatan task, judul task, dan deskripsi task.
 
-Saya membuat fungsi show_todolist pada views.py yang akan ditampilkan pada file todolist.html berisi data-data to do list yang dimasukkan user. Lalu saya menambahkan {{username}} pada file html untuk menampilkan username pengguna. Untuk membuat tombol logout dan tambah taskbaru, saya menambahkan 2 kode ini
-
-<button onclick="location.href='/todolist/create-task'">Add New Task</button>
-<button><a href="{% url 'todolist:logout' %}">Logout</a></button>
-
-Pada file todolist.html. Lalu saya juga mengakses isi tabel dengan melakukan loop for each di file todolist.html
+Saya membuat fungsi show_todolist pada views.py yang akan ditampilkan pada file todolist.html berisi data-data to do list yang dimasukkan user. Lalu saya menambahkan {{username}} pada file html untuk menampilkan username pengguna. Untuk membuat tombol logout dan tambah taskbaru, saya menambahkan 2 kode untuk membuat button pada file todolist.html. Lalu saya juga mengakses isi tabel dengan melakukan loop for each di file todolist.html
 
 6.  Membuat halaman form untuk pembuatan task. Data yang perlu dimasukkan pengguna hanyalah judul task dan deskripsi task.
 
