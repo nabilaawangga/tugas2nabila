@@ -65,7 +65,7 @@ Melakukan git add, commit serta push ke repositori sehingga akan melakukan updat
 ## TUGAS 5
 # Apa perbedaan dari Inline, Internal, dan External CSS? Apa saja kelebihan dan kekurangan dari masing-masing style?
 1. Inline CSS: kode CSS yang ditulis langsung pada atribut elemen HTML.
-Contoh: "<div class="card-header text-gray-300" style="background-color: rgb(250, 227, 17);">"
+Contoh: "< div class="card-header text-gray-300" style="background-color: rgb(250, 227, 17);" >"
   
 Inline CSS ini tidak efisien karena hanya berlaku untuk tiap 1 elemen html yang diberi inline css tersebut. Tetapi cukup membantu ketika hanya ingin menguji dan melihat perubahan pada satu elemen.
 
