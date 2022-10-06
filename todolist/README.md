@@ -90,3 +90,11 @@ dan masih banyak lagi :)
 2. '#' -> untuk select id
 3. '.' -> untuk memilih kelas pada komponen
 dan yang lainnya
+
+##  Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+1.  Kustomisasi templat untuk halaman login, register, dan create-task semenarik mungkin.
+saya menggunakan tailwind untuk membuat login, register. Untuk create task, saya menggunakan navigation bar
+2. Kustomisasi halaman utama todo list menggunakan cards. (Satu card mengandung satu task).
+saya menggunakan tailwind untuk membuat cards dan menambahkan navigation bar pada bagian atas halaman web
+3. Membuat keempat halaman yang dikustomisasi menjadi responsive.
+menambahkan '< meta name="viewport" content="width=device-width, initial-scale=1" >' pada bagian atas file html
