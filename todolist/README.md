@@ -3,6 +3,15 @@ NPM: 2106703840
 Kelas: PBP F
 
 link heroku:
+https://katalognabila.herokuapp.com/todolist/login/?next=/todolist/
+
+https://katalognabila.herokuapp.com/todolist/login/
+
+https://katalognabila.herokuapp.com/todolist/register/
+
+https://katalognabila.herokuapp.com/todolist/create-task/
+
+https://katalognabila.herokuapp.com/todolist/logout/
 
 ## Apa kegunaan {% csrf_token %} pada elemen <form>? Apa yang terjadi apabila tidak ada potongan kode tersebut pada elemen <form>?
 CSRF adalah serangan yang mengirimkan permintaan palsu kepada suatu web padahal permintaan tersebut tidak dikirim oleh si pengguna. csrf_ token digunakan untuk mencegah penyerangan csrf tersebut dengan melakukan validasi dari token yang dimasukkan pengguna dengan yang di simpan di dalam user session. Form akan menolak permintaan jika token yang dimasukkan tidak valid. Website tetap bisa digunakan dan berjalan dengan baik jika tidak ada csrf_token pada form, tetapi akan ada resiko penyerangan CSRF dengan contoh kasus yaitu orang lain selain pengguna akun tersebut dapat menghapus akun dengan mengakses route link yang sesuai tanpa diketahui oleh si pengguna akun tersebut.
@@ -30,12 +39,7 @@ Pertama-tama, saya membuat fungsi login, register, logout pada views.py. Lalu sa
 
 5.  Membuat halaman utama todolist yang memuat username pengguna, tombol Tambah Task Baru, tombol logout, serta tabel berisi tanggal pembuatan task, judul task, dan deskripsi task.
 
-Saya membuat fungsi show_todolist pada views.py yang akan ditampilkan pada file todolist.html berisi data-data to do list yang dimasukkan user. Lalu saya menambahkan {{username}} pada file html untuk menampilkan username pengguna. Untuk membuat tombol logout dan tambah taskbaru, saya menambahkan 2 kode ini
-
-<button onclick="location.href='/todolist/create-task'">Add New Task</button>
-<button><a href="{% url 'todolist:logout' %}">Logout</a></button>
-
-Pada file todolist.html. Lalu saya juga mengakses isi tabel dengan melakukan loop for each di file todolist.html
+Saya membuat fungsi show_todolist pada views.py yang akan ditampilkan pada file todolist.html berisi data-data to do list yang dimasukkan user. Lalu saya menambahkan {{username}} pada file html untuk menampilkan username pengguna. Untuk membuat tombol logout dan tambah taskbaru, saya menambahkan 2 kode untuk membuat button pada file todolist.html. Lalu saya juga mengakses isi tabel dengan melakukan loop for each di file todolist.html
 
 6.  Membuat halaman form untuk pembuatan task. Data yang perlu dimasukkan pengguna hanyalah judul task dan deskripsi task.
 
