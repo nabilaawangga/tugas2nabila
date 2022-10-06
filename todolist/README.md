@@ -76,16 +76,16 @@ Internal CSS hanya berlaku di satu halaman saja. Lalu file yang akan diupload le
 External CSS lebih efisien karena 1 file external css dapat digunakan oleh banyak halaman web sekaligus. Namun, ketika external css gagal dipanggil oleh file html, tampilan CSS akan berantakan
 
 ## Jelaskan tag HTML5 yang kamu ketahui.
- '< button >' untuk membuat button yang clickable
- '< form >' untuk data user input
- '< div >' tempat bagi elemen elemen lain untuk diletakkan, seperti dasarnya
- '< u l>' dan <li> untuk membuat list
- '< style >' untuk menamppung informasi dan perintah untuk mengubah design tampilan halaman web
- '< p >' untuk membuat text paragraf
+1. '< button >' untuk membuat button yang clickable
+2. '< form >' untuk data user input
+3. '< div >' tempat bagi elemen elemen lain untuk diletakkan, seperti dasarnya
+4. '< ul >' dan < li > untuk membuat list
+5. '< style >' untuk menamppung informasi dan perintah untuk mengubah design tampilan halaman web
+6. '< p >' untuk membuat text paragraf
 dan masih banyak lagi :)
   
 ##  Jelaskan tipe-tipe CSS selector yang kamu ketahui.
- '*' -> untuk memilih semua elemen
- '#' -> untuk select id
- '.' -> untuk memilih kelas pada komponen
+1. '*' -> untuk memilih semua elemen
+2. '#' -> untuk select id
+3. '.' -> untuk memilih kelas pada komponen
 dan yang lainnya
