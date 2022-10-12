@@ -9,6 +9,10 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+from django.core import serializers
+from django.http.response import HttpResponse
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
 
 # Create your views here.
@@ -20,6 +24,32 @@ def show_todolist(request):
     'username' :  request.user.username,
     }
     return render(request, "todolist.html", context)
+
+# ASSIGNMENT 6
+@login_required(login_url='/todolist/login/')
+def show_json(request):
+    task = Task.objects.filter(user=request.user)
+    return HttpResponse(serializers.serialize('json', task), content_type='application/json')
+
+# @login_required(login_url='/todolist/login/')
+@csrf_exempt
+def buat_todolist(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        description = request.POST.get('description')
+        todolist = Task.objects.create(title=title, description=description, date=datetime.datetime.now(), status=False, user=request.user)
+
+        result = {
+            'fields': {
+                'title' : todolist.title,
+                'description' : todolist.description,
+                'status' : todolist.status,
+                'date' : todolist.date,
+            },
+            'pk' : todolist.pk
+        }
+
+    return JsonResponse(result)
 
 def register(request):
     form = UserCreationForm()
@@ -70,6 +100,7 @@ def membuat_task(request):
         return response
 
     return render(request, "task.html")
+
 
 def delete(request, pk):
     data = Task.objects.get(id=pk)
